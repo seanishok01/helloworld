@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="bc80267b-cb74-4eb0-8f57-a679e1fd39f3" name="subburay@SUBBURAY1 2017-03-20 10:58:53" runUser="AUTH\subburay" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="a22cc626-4f8b-4543-92e5-6e83e8cce49c">
+    <Deployment userDeploymentRoot="c:\Git test" useDefaultDeploymentRoot="false" runDeploymentRoot="subburay_SUBBURAY1 2017-03-20 10_58_53" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Properties />
+  </TestSettings>
+  <Times creation="2017-03-20T10:58:53.0514371-05:00" queuing="2017-03-20T10:58:53.5827206-05:00" start="2017-03-20T10:58:53.6608356-05:00" finish="2017-03-20T10:58:56.6141591-05:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="4" executed="4" passed="3" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="SUBBURAY1" outcome="Warning" timestamp="2017-03-20T10:58:53.4108189-05:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'AWSSDK' directly or indirectly referenced by the test container 'C:\prog\ipulsar\iPulsarTests\bin\Debug\ipulsartests.dll' was not found.</Text>
+      </RunInfo>
+      <RunInfo computerName="SUBBURAY1" outcome="Warning" timestamp="2017-03-20T10:58:53.4108189-05:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Microsoft.WindowsAzure.Storage' directly or indirectly referenced by the test container 'C:\prog\ipulsar\iPulsarTests\bin\Debug\ipulsartests.dll' was not found.</Text>
+      </RunInfo>
+      <RunInfo computerName="SUBBURAY1" outcome="Warning" timestamp="2017-03-20T10:58:53.4108189-05:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Telerik.Everlive.Sdk.Net35' directly or indirectly referenced by the test container 'C:\prog\ipulsar\iPulsarTests\bin\Debug\ipulsartests.dll' was not found.</Text>
+      </RunInfo>
+      <RunInfo computerName="SUBBURAY1" outcome="Warning" timestamp="2017-03-20T10:58:53.4108189-05:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Microsoft.AnalysisServices.AdomdClient' directly or indirectly referenced by the test container 'C:\prog\ipulsar\iPulsarTests\bin\Debug\ipulsartests.dll' was not found.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CancelFNORequestTest" storage="ipulsartests.dll" id="ac5421e7-5d94-5c36-1f58-f787a2a21e18">
+      <Execution id="48cfd5f9-4492-45ba-8a2f-edeb569ce16d" />
+      <TestMethod codeBase="C:/prog/ipulsar/iPulsarTests/bin/Debug/iPulsarTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="iPulsar.Features.Tests.FeaturePropertiesTest, iPulsarTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CancelFNORequestTest" />
+    </UnitTest>
+    <UnitTest name="GetPreviousReasonforOverrideRequestTest" storage="ipulsartests.dll" id="6884cf8b-e936-7466-eae9-453d891da537">
+      <Execution id="146fa13c-793e-4cf3-a933-c458870a4bf8" />
+      <TestMethod codeBase="C:/prog/ipulsar/iPulsarTests/bin/Debug/iPulsarTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="iPulsar.Features.Tests.FeaturePropertiesTest, iPulsarTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetPreviousReasonforOverrideRequestTest" />
+    </UnitTest>
+    <UnitTest name="DeleteFeatureTest" storage="ipulsartests.dll" id="2dd299a8-df99-a23d-bbae-98dfd844fbc9">
+      <Execution id="71a8a460-f9a6-4b22-9444-b88e1f11ef06" />
+      <TestMethod codeBase="C:/prog/ipulsar/iPulsarTests/bin/Debug/iPulsarTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="iPulsar.Features.Tests.FeaturePropertiesTest, iPulsarTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DeleteFeatureTest" />
+    </UnitTest>
+    <UnitTest name="SaveFeatureTest" storage="ipulsartests.dll" id="3886306b-e155-aaf1-cb23-834743e32ff2">
+      <Execution id="662e55ad-8ff3-4ee3-a4b0-8b806906d1e8" />
+      <TestMethod codeBase="C:/prog/ipulsar/iPulsarTests/bin/Debug/iPulsarTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="iPulsar.Features.Tests.FeaturePropertiesTest, iPulsarTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SaveFeatureTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="ac5421e7-5d94-5c36-1f58-f787a2a21e18" executionId="48cfd5f9-4492-45ba-8a2f-edeb569ce16d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2dd299a8-df99-a23d-bbae-98dfd844fbc9" executionId="71a8a460-f9a6-4b22-9444-b88e1f11ef06" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6884cf8b-e936-7466-eae9-453d891da537" executionId="146fa13c-793e-4cf3-a933-c458870a4bf8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3886306b-e155-aaf1-cb23-834743e32ff2" executionId="662e55ad-8ff3-4ee3-a4b0-8b806906d1e8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="48cfd5f9-4492-45ba-8a2f-edeb569ce16d" testId="ac5421e7-5d94-5c36-1f58-f787a2a21e18" testName="CancelFNORequestTest" computerName="SUBBURAY1" duration="00:00:00.2305252" startTime="2017-03-20T10:58:53.6920996-05:00" endTime="2017-03-20T10:58:54.3796286-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="48cfd5f9-4492-45ba-8a2f-edeb569ce16d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Fail failed. There is no row at position 0.</Message>
+          <StackTrace>   at iPulsar.Features.Tests.FeaturePropertiesTest.CancelFNORequestTest() in C:\prog\ipulsar\iPulsarTests\FeaturePropertiesTest.cs:line 155
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="71a8a460-f9a6-4b22-9444-b88e1f11ef06" testId="2dd299a8-df99-a23d-bbae-98dfd844fbc9" testName="DeleteFeatureTest" computerName="SUBBURAY1" duration="00:00:00.3638280" startTime="2017-03-20T10:58:54.3796286-05:00" endTime="2017-03-20T10:58:54.7547124-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="71a8a460-f9a6-4b22-9444-b88e1f11ef06">
+    </UnitTestResult>
+    <UnitTestResult executionId="146fa13c-793e-4cf3-a933-c458870a4bf8" testId="6884cf8b-e936-7466-eae9-453d891da537" testName="GetPreviousReasonforOverrideRequestTest" computerName="SUBBURAY1" duration="00:00:00.0052462" startTime="2017-03-20T10:58:54.7547124-05:00" endTime="2017-03-20T10:58:54.7702895-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="146fa13c-793e-4cf3-a933-c458870a4bf8">
+    </UnitTestResult>
+    <UnitTestResult executionId="662e55ad-8ff3-4ee3-a4b0-8b806906d1e8" testId="3886306b-e155-aaf1-cb23-834743e32ff2" testName="SaveFeatureTest" computerName="SUBBURAY1" duration="00:00:01.7401683" startTime="2017-03-20T10:58:54.7702895-05:00" endTime="2017-03-20T10:58:56.5204465-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="662e55ad-8ff3-4ee3-a4b0-8b806906d1e8">
+    </UnitTestResult>
+  </Results>
+</TestRun>
